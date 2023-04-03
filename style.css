@@ -1,0 +1,40 @@
+    * {
+        padding: 10px;
+        margin: 10px;
+        background: url('images/bg4.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    #countries {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .country-name {
+        color: rgb(0, 255, 229);
+        font-size: 45px;
+    }
+
+    .country-info {
+        border: 1px solid goldenrod;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        color: white;
+    }
+
+    .country-info button {
+        color: white;
+        border-radius: 10px;
+        background: gray;
+    }
+
+    #countryDetails {
+        display: none;
+    }
+
+    #countryDetails img {
+        width: 400px;
+    }
